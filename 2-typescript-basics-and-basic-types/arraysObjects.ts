@@ -1,3 +1,6 @@
-let hobbies=["playing","reading"]
+let hobbies = ["playing", "reading"];
 
-hobbies.push(10)
+let users: (string | number)[];
+
+users = [1, "max"];
+users = ["3", "5"];
