@@ -1,6 +1,5 @@
-let age: any = 36;
+let age: string |number |boolean = 36;
 
 age = "name";
 age = false;
-age = {};
-age = [];
+
