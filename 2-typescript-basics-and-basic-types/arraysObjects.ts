@@ -24,4 +24,5 @@ let user: {
     id: 2,
   },
 };
-console.log(user);
+
+let val: {} ="null";
