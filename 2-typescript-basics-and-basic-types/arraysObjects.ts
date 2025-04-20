@@ -4,7 +4,24 @@ let hobbies = ["playing", "reading"];
 let users: Array<string | number>;
 users = [1, "max"];
 users = ["3", "5"];
-let possibleUser:[string,number];
-possibleUser=["Tamim",25]
-console.log(possibleUser)
+let possibleUser: [string, number];
+possibleUser = ["Tamim", 25];
 
+let user: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: {
+    description: string;
+    id: number;
+  };
+} = {
+  name: "Tamim",
+  age: 28,
+  hobbies: ["Playing", "Watching"],
+  role: {
+    description: "hello",
+    id: 2,
+  },
+};
+console.log(user);
