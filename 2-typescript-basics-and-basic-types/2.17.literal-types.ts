@@ -1,1 +1,3 @@
-let useRole: string = "admin";
+{
+  let useRole: string = "admin";
+}
