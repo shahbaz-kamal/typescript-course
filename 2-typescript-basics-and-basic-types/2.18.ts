@@ -1,5 +1,5 @@
 type Veicle {
     name:string;
-    year:number
-
+    year:number;
+model:string;
 }
